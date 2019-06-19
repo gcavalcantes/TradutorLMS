@@ -20,4 +20,4 @@ O tradutor realiza uma análise léxica, síntatica, semântica e fazer a geraç
 - O analisador semântico deve ser implementado em uma classe chamada "AnalisadorSemantico". Classes auxiliares poderão ser implementadas, no entanto, o tratamento das ações semânticas deverá ser efetuada nessa classe.
 
 ## Considerações para o projeto
-Este projeto é desenvolvido tendo em mente o 
+Este projeto é desenvolvido para a matéria de 'Tradução de Linguagens de Programação', da UNISUL - Tubarão, SC.
