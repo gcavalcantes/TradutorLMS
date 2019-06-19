@@ -14,10 +14,10 @@ O tradutor realiza uma análise léxica, síntatica, semântica e fazer a geraç
 - Botões para fazer análise léxica, sintática e semântic, bem como, interpretação (execução);
 - Após a análise léxica deverá ser apresentada uma tabela contendo os tokens identificadas. Essa tabela deve conter: código de token, lexema (string do token propriamente dita), classe(descrição da categoria a que pertence o token);
 - Caso seja encontrado algum erro léxico, sintático ou semântico na compilação, deve ser apresentada na tela uma mensagem de erro adequada, bem como a linha correspondente no programa-fonte em que o erro foi encontrado;
-- Se o programa-fonte informado pelo usuário estiver correto (léxico, sintático e semanticamente) deverá ser gerado o respectivo código para a máquina hipotética (código intermediário);
+- Se o programa-fonte informado pelo usuário estiver correto (léxico, sintático e semanticamente) deve ser gerado o respectivo código para a máquina hipotética (código intermediário);
 - O software deve pertimir visualizar o código gerado para a máquina hipotética, contendo: endereço de instrução, memônico da instrução, operando 1 e operando 2;
 - A máquina hipotética deve estar acoplada ao software de maneira que, a partir do menu ou de alguma barra de ferramentas, seja possível ao usuário executar o código gerado;
-- O analisador semântico deverá ser implementado em uma classe chamada "AnalisadorSemantico". Classes auxiliares poderão ser implementadas, no entanto, o tratamento das ações semânticas deverá ser efetuada nessa classe.
+- O analisador semântico deve ser implementado em uma classe chamada "AnalisadorSemantico". Classes auxiliares poderão ser implementadas, no entanto, o tratamento das ações semânticas deverá ser efetuada nessa classe.
 
 ## Considerações para o projeto
 Este projeto é desenvolvido tendo em mente o 
